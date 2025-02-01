@@ -43,7 +43,7 @@ Time Complexity Analysis:
 
 Optimized Hashing Approach: O(N!) but much faster in practice due to constant-time lookups in unordered_set.
 
-**2. Sieve of Eratosthenes**🏛️
+**2. Sieve of Eratosthenes** 🏛️
 
 The Sieve of Eratosthenes is an efficient algorithm to find all prime numbers up to a given number N.
 
