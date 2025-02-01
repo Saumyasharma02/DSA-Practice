@@ -1,5 +1,6 @@
 # DSA-Practice
 **1. N-QUEEN PROBLEM** 🏰
+
 Problem Statement:
 The N-Queen problem involves placing N queens on an N x N chessboard such that no two queens can attack each other. This means:
 - No two queens share the same row.
@@ -7,6 +8,7 @@ The N-Queen problem involves placing N queens on an N x N chessboard such that n
 - No two queens share the same diagonal.
   
 Approach:
+
 We can solve this problem using Backtracking, where we try to place a queen in each row, one by one, and backtrack if we encounter a conflict.
 
 Steps:
