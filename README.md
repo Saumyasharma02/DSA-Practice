@@ -2,6 +2,7 @@
 **1. N-QUEEN PROBLEM** 🏰
 
 Problem Statement:
+
 The N-Queen problem involves placing N queens on an N x N chessboard such that no two queens can attack each other. This means:
 - No two queens share the same row.
 - No two queens share the same column.
