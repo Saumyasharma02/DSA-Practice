@@ -22,7 +22,7 @@ Time Complexity: O(N!):
 Space Complexity: O(N^2):
 - For the board and auxiliary space used during recursion.
 
-# Explanation of Optimizations
+*Explanation of Optimizations*
 **Uses three hash sets:**
 
 - columns[col] → Ensures no two queens are in the same column.
@@ -36,3 +36,6 @@ Space Complexity: O(N^2):
 **Efficiently stores solutions:**
 
 - Uses a vector of strings instead of a 2D array.
+
+Time Complexity Analysis:
+Optimized Hashing Approach: O(N!) but much faster in practice due to constant-time lookups in unordered_set.
