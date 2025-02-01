@@ -23,6 +23,7 @@ Space Complexity: O(N^2):
 - For the board and auxiliary space used during recursion.
 
 *Explanation of Optimizations*
+
 **Uses three hash sets:**
 
 - columns[col] → Ensures no two queens are in the same column.
