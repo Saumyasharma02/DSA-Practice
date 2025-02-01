@@ -1,4 +1,4 @@
-# DSA-Practice
+## DSA-Practice
 **1. N-QUEEN PROBLEM** 🏰
 
 Problem Statement:
@@ -21,3 +21,18 @@ Time Complexity: O(N!):
 - For each row, we have N options to place a queen. If the board size is N x N, there are N! possible ways to arrange N queens.
 Space Complexity: O(N^2):
 - For the board and auxiliary space used during recursion.
+
+# Explanation of Optimizations
+**Uses three hash sets:**
+
+- columns[col] → Ensures no two queens are in the same column.
+- diag1[row - col] → Prevents queens from attacking along / diagonals.
+- diag2[row + col] → Prevents queens from attacking along \ diagonals.
+
+**Backtracking only on valid moves:**
+
+- Instead of checking the whole board (O(N)), we use set lookups (O(1)) to check for conflicts.
+  
+**Efficiently stores solutions:**
+
+- Uses a vector of strings instead of a 2D array.
