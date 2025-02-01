@@ -42,3 +42,21 @@ Space Complexity: O(N^2):
 Time Complexity Analysis:
 
 Optimized Hashing Approach: O(N!) but much faster in practice due to constant-time lookups in unordered_set.
+
+**2.Sieve of Eratosthenes**🏛️
+
+The Sieve of Eratosthenes is an efficient algorithm to find all prime numbers up to a given number N.
+
+*Concept*
+1. Create a boolean array of size N+1 initialized to true (assuming all numbers are prime).
+2. Start from 2, the smallest prime number.
+3. Mark all multiples of 2 as false (not prime).
+4. Move to the next unmarked number, mark its multiples as false.
+5. Repeat the process until you reach √N.
+6. The remaining true values in the array correspond to prime numbers.
+
+Time Complexity Analysis:
+
+O(N log log N) → Much faster than checking each number individually (O(N√N)).
+
+Space Complexity: O(N) → Uses an array of size N.
